@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		79E80263226EEA3000956584 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79E80262226EEA3000956584 /* main.cpp */; };
+		79E8026B226EEA4600956584 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E8026A226EEA4600956584 /* OpenGL.framework */; };
+		79E80271226EFE9900956584 /* libCGAL.13.0.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E8026C226EFE9900956584 /* libCGAL.13.0.2.dylib */; };
+		79E80272226EFE9900956584 /* libCGAL_Core.13.0.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E8026D226EFE9900956584 /* libCGAL_Core.13.0.2.dylib */; };
+		79E80273226EFE9900956584 /* libboost_thread-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E8026E226EFE9900956584 /* libboost_thread-mt.dylib */; };
+		79E80274226EFE9900956584 /* libgmp.10.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E8026F226EFE9900956584 /* libgmp.10.dylib */; };
+		79E80275226EFE9900956584 /* libmpfr.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E80270226EFE9900956584 /* libmpfr.6.dylib */; };
+		79E802792271B49200956584 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E802782271B49200956584 /* libglfw.3.3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,14 @@
 /* Begin PBXFileReference section */
 		79E8025F226EEA3000956584 /* CDG Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CDG Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79E80262226EEA3000956584 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		79E8026A226EEA4600956584 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		79E8026C226EFE9900956584 /* libCGAL.13.0.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL.13.0.2.dylib; path = ../../../../../../../../usr/local/Cellar/cgal/4.13/lib/libCGAL.13.0.2.dylib; sourceTree = "<group>"; };
+		79E8026D226EFE9900956584 /* libCGAL_Core.13.0.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libCGAL_Core.13.0.2.dylib; path = ../../../../../../../../usr/local/Cellar/cgal/4.13/lib/libCGAL_Core.13.0.2.dylib; sourceTree = "<group>"; };
+		79E8026E226EFE9900956584 /* libboost_thread-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_thread-mt.dylib"; path = "../../../../../../../../usr/local/Cellar/boost/1.68.0_1/lib/libboost_thread-mt.dylib"; sourceTree = "<group>"; };
+		79E8026F226EFE9900956584 /* libgmp.10.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libgmp.10.dylib; path = ../../../../../../../../usr/local/Cellar/gmp/6.1.2_2/lib/libgmp.10.dylib; sourceTree = "<group>"; };
+		79E80270226EFE9900956584 /* libmpfr.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmpfr.6.dylib; path = ../../../../../../../../usr/local/Cellar/mpfr/4.0.1/lib/libmpfr.6.dylib; sourceTree = "<group>"; };
+		79E802762271B1B000956584 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = "../../../../../../Downloads/ogl-master/OpenGL_bin_XCode/external/glfw-3.1.2/src/Debug/libglfw3.a"; sourceTree = "<group>"; };
+		79E802782271B49200956584 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../../../usr/local/Cellar/glfw/3.3/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +47,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E802792271B49200956584 /* libglfw.3.3.dylib in Frameworks */,
+				79E80271226EFE9900956584 /* libCGAL.13.0.2.dylib in Frameworks */,
+				79E80272226EFE9900956584 /* libCGAL_Core.13.0.2.dylib in Frameworks */,
+				79E80273226EFE9900956584 /* libboost_thread-mt.dylib in Frameworks */,
+				79E80274226EFE9900956584 /* libgmp.10.dylib in Frameworks */,
+				79E80275226EFE9900956584 /* libmpfr.6.dylib in Frameworks */,
+				79E8026B226EEA4600956584 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +65,7 @@
 			children = (
 				79E80261226EEA3000956584 /* CDG Project */,
 				79E80260226EEA3000956584 /* Products */,
+				79E80269226EEA4600956584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +83,21 @@
 				79E80262226EEA3000956584 /* main.cpp */,
 			);
 			path = "CDG Project";
+			sourceTree = "<group>";
+		};
+		79E80269226EEA4600956584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79E802782271B49200956584 /* libglfw.3.3.dylib */,
+				79E802762271B1B000956584 /* libglfw3.a */,
+				79E8026E226EFE9900956584 /* libboost_thread-mt.dylib */,
+				79E8026D226EFE9900956584 /* libCGAL_Core.13.0.2.dylib */,
+				79E8026C226EFE9900956584 /* libCGAL.13.0.2.dylib */,
+				79E8026F226EFE9900956584 /* libgmp.10.dylib */,
+				79E80270226EFE9900956584 /* libmpfr.6.dylib */,
+				79E8026A226EEA4600956584 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +277,18 @@
 		79E80267226EEA3000956584 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/cgal/4.13/lib,
+					/usr/local/Cellar/boost/1.68.0_1/lib,
+					/usr/local/Cellar/gmp/6.1.2_2/lib,
+					/usr/local/Cellar/mpfr/4.0.1/lib,
+					/usr/local/lib/,
+					/usr/local/Cellar/glfw/3.3/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -247,7 +296,18 @@
 		79E80268226EEA3000956584 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/cgal/4.13/lib,
+					/usr/local/Cellar/boost/1.68.0_1/lib,
+					/usr/local/Cellar/gmp/6.1.2_2/lib,
+					/usr/local/Cellar/mpfr/4.0.1/lib,
+					/usr/local/lib/,
+					/usr/local/Cellar/glfw/3.3/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
